@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: bc3bad89d6a753b4f98f83559e9283b1
+timeCreated: 1526321803
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Perfectly Together
+  fontNames:
+  - Perfectly Together
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

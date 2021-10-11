@@ -1,0 +1,332 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1688250166538150}
+  m_IsPrefabAsset: 1
+--- !u!1 &1688250166538150
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4754159367320276}
+  - component: {fileID: 114331183609125446}
+  m_Layer: 0
+  m_Name: UI_ATLAS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4754159367320276
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1688250166538150}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114331183609125446
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1688250166538150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: fb7a4f59f5dcfcf4b9b7403836fc489c, type: 2}
+  mSprites:
+  - name: ICNO_STOP
+    x: 2500
+    y: 1792
+    width: 256
+    height: 256
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 128
+    paddingRight: 128
+    paddingTop: 128
+    paddingBottom: 128
+  - name: ICON_BANG
+    x: 1162
+    y: 29
+    width: 79
+    height: 391
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 217
+    paddingRight: 216
+    paddingTop: 50
+    paddingBottom: 71
+  - name: ICON_DIAMOND
+    x: 3189
+    y: 1620
+    width: 366
+    height: 428
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 85
+    paddingRight: 61
+    paddingTop: 42
+    paddingBottom: 42
+  - name: ICON_GAGEBAR
+    x: 1604
+    y: 1165
+    width: 986
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ICON_GPGS
+    x: 1604
+    y: 1213
+    width: 298
+    height: 212
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 44
+    paddingBottom: 44
+  - name: ICON_LANGUAGE
+    x: 1284
+    y: 632
+    width: 512
+    height: 512
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ICON_LOCK
+    x: 3559
+    y: 1242
+    width: 342
+    height: 424
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 85
+    paddingRight: 85
+    paddingTop: 37
+    paddingBottom: 51
+  - name: ICON_MONEY
+    x: 3550
+    y: 938
+    width: 300
+    height: 300
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ICON_PAUSE
+    x: 2056
+    y: 1608
+    width: 440
+    height: 440
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 36
+    paddingRight: 36
+    paddingTop: 36
+    paddingBottom: 36
+  - name: ICON_PLAY
+    x: 3189
+    y: 1213
+    width: 357
+    height: 403
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 89
+    paddingRight: 66
+    paddingTop: 50
+    paddingBottom: 59
+  - name: ICON_RESET
+    x: 1604
+    y: 1600
+    width: 448
+    height: 448
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 32
+    paddingRight: 32
+    paddingTop: 32
+    paddingBottom: 32
+  - name: ICON_ROUNDSQUARE
+    x: 1604
+    y: 1429
+    width: 1193
+    height: 167
+    borderLeft: 50
+    borderRight: 50
+    borderTop: 50
+    borderBottom: 50
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ICON_SETTING
+    x: 362
+    y: 10
+    width: 410
+    height: 410
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 51
+    paddingRight: 51
+    paddingTop: 56
+    paddingBottom: 46
+  - name: ICON_SHOP
+    x: 776
+    y: 6
+    width: 382
+    height: 414
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 65
+    paddingRight: 65
+    paddingTop: 49
+    paddingBottom: 49
+  - name: ICON_SMALL_SQUARE
+    x: 1284
+    y: 116
+    width: 512
+    height: 512
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ICON_STAR
+    x: 3559
+    y: 1670
+    width: 396
+    height: 378
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 20
+    paddingRight: 20
+    paddingTop: 20
+    paddingBottom: 20
+  - name: ICON_SYNC
+    x: 2801
+    y: 1536
+    width: 384
+    height: 512
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 64
+    paddingRight: 64
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ICON_TOUCH
+    x: 2801
+    y: 1147
+    width: 309
+    height: 385
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 101
+    paddingRight: 102
+    paddingTop: 64
+    paddingBottom: 63
+  - name: Logo
+    x: 0
+    y: 424
+    width: 1280
+    height: 720
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Rank
+    x: 0
+    y: 14
+    width: 358
+    height: 406
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 77
+    paddingRight: 77
+    paddingTop: 53
+    paddingBottom: 53
+  - name: Uni
+    x: 0
+    y: 1148
+    width: 1600
+    height: 900
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
